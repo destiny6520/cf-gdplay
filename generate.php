@@ -16,8 +16,8 @@
 <body>
 	<div class="container bg-dark">
 		<div class="jumbotron mt-3">
-	        <h1 class="display-6">Cloudflare MP4 Video Player</h1>
-	        <p class="lead">Help you encode URL to protect your real URL. You can use url or iframe after encoding into your website easily and quickly.</p>
+	        <h1 class="display-6">Generate Video Player</h1>
+	        <p class="lead">Encode URL to protect your real URL. You can use url or iframe after encoding into your website easily and quickly.</p>
 	     </div>
 	     
 		<form id="action-form" action="action.php" method="POST" accept-charset="utf-8">
