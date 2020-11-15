@@ -81,7 +81,7 @@
 			<label class="font-weight-bold text-white">Iframe Encoding</label>
 			<textarea rows="5" class="form-control" id="iframe-encode" placeholder="" onclick="this.select()" readonly></textarea>
 		</div>
-		<?php  $domainServer = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER['PHP_SELF']); ?>
+		<?php  $domainServer = (isset($_SERVER['HTTPS']) ? "http" : "https") . "://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER['PHP_SELF']); ?>
 		<script type="text/javascript">
 			jQuery(function ($) {
 				$('#action-form').submit(function(e) {
