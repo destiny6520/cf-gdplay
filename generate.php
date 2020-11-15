@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -110,9 +111,9 @@
 		</script>
 
 		<hr>
-		<footer class="footer">
-			<p class="text-center text-white">Copyright &copy; <?php echo date('Y') ?> <a href="https://t.me/kiprox" title="CFPlayer" target="_blank">CFPlayer</a>. All rights reserved.</p>
-		</footer>
 	</div>
+	<footer class="footer">
+		<p class="text-center text-white">Copyright &copy; <?php echo date('Y') ?> <a href="https://t.me/kiprox" title="CFPlayer" target="_blank">CFPlayer</a>. All rights reserved.</p>
+	</footer>
 </body>
 </html>
