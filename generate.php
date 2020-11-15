@@ -24,7 +24,7 @@
 	     
 		<form id="action-form" action="action.php" method="POST" accept-charset="utf-8">
 			<div class="form-group">
-				<label class="font-weight-bold text-white">Video URL:</label>
+				<label class="font-weight-bold text-white">Video URL</label>
 				<input type="text" name="link" class="form-control" placeholder="" onclick="this.select()" required>
 			</div>
 
